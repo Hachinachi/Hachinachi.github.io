@@ -1,0 +1,117 @@
+body{
+  /* background: rgb(180, 223, 240); */
+  background-image: url('../img/haikeii.jpg');
+  background-size: cover;
+}
+
+#menu ul{
+  display: flex;
+  /* float: right; */
+  list-style-type: none;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+
+}
+#menu a{
+  width: 100px;
+  text-align: center;
+  line-height: 50px;
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+#menu li:hover{
+  background: rgb(123, 186, 238);
+}
+
+.haikei{
+  position: relative;
+  margin-left: 0;
+  padding-left: 0;
+}
+.point{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  top: -15%;
+  left: 3%;
+}
+
+.prof{
+  border: solid;
+  background: rgb(197, 210, 233);
+  text-align: center;
+  width: 700px;
+  left: 100px;
+  margin-top: 30px;
+}
+
+.ski{
+  border: solid;
+  background: rgb(197, 210, 233);
+  text-align: center;
+  width: 700px;
+  margin: 50px auto;
+}
+.hosi{
+  border: solid;
+  background: rgb(197, 210, 233);
+  text-align: center;
+  width: 700px;
+  margin: 50px 0 0 auto;
+}
+.hosi ul{
+  list-style: none;
+  margin: 30px auto;
+  padding: 0;
+
+}
+
+.sns ul{
+  list-style: none;
+}
+
+.instagram {  /*アイコン背景*/
+  text-decoration: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 8px 3px  rgba(176, 169, 169, 0.3) ;
+
+  position:relative;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  overflow: hidden;
+}
+.instagram::before { /*アイコン */
+ font-family: "Font Awesome 5 Brands";
+ font-weight: 400;
+ content: '\f16d';
+ color: white;
+ font-size: 19px;
+ position: relative;
+ z-index: 1;
+}
+
+.instagram-light {  /*アイコン背景ライト*/
+  position: absolute;
+  top: 16px;
+  left: -6px;
+  width: 30px;
+  height: 30px;
+  background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+}
+
+.twitter{
+  background:linear-gradient(135deg, #13f1fc 0%,#0470dc 100%);
+  }
+
+  .fecebock{
+    background: linear-gradient(135deg, #6699ff 0%,#3b5998 100%);
+    }
